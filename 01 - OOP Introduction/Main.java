@@ -1,8 +1,6 @@
 //08-20-2026 -- Learning basic OOP
 
-package jar.garcia;
-
-import jar.garcia.domain.Vehicle;
+import domain.Vehicle;
 
 public class Main {
     public static void main(String[] args) {

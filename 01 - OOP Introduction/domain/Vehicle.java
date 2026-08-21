@@ -1,4 +1,4 @@
-package jar.garcia.domain;
+package domain;
 
 public class Vehicle {
     private String model;
