@@ -1,6 +1,6 @@
-//08-20-2026 -- Learning basic OOP
+package p01_oop;
 
-import domain.Vehicle;
+import p01_oop.domain.Vehicle;
 
 public class Main {
     public static void main(String[] args) {

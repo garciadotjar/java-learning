@@ -1,4 +1,4 @@
-package domain;
+package p01_oop.domain;
 
 public class Vehicle {
     private String model;
