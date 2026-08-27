@@ -1,6 +1,6 @@
 package p03_enums;// 08-21-2026
 // Just a simple test of enumerations, override method on constructors and abstract method.
-import domain.Days;
+import p03_enums.domain.Days;
 
 public class Main {
     public static void main(String[] args) {

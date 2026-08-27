@@ -1,4 +1,4 @@
-package domain;
+package p02_inheritance.domain;
 
 public class Car extends Vehicle{
     public Car(String model, int maxVelocity) {

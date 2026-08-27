@@ -1,4 +1,4 @@
-package domain;
+package p02_inheritance.domain;
 
 public class Vehicle {
     private String model;

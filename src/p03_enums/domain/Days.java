@@ -1,4 +1,4 @@
-package domain;
+package p03_enums.domain;
 
 public enum Days {
 
