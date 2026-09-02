@@ -1,5 +1,5 @@
 //02-09-2026
-//just a test to generate hash code using the java hash generator
+//just a test to generate hash code using the java hash generator.
 package p08_hashCode;
 
 import p08_hashCode.domain.Plane;
