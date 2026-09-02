@@ -7,7 +7,6 @@ package p07_serialization;
 import p07_serialization.domain.FlightPlan;
 import p07_serialization.domain.NonSerializableTestClass;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -24,7 +23,7 @@ public class Main {
     }
 
     private static void serialize(FlightPlan flightPlan) {
-        Path path = Paths.get("misc/p07_serialization/fplan.ser");
+        Path path = Paths.get("misc/p08_hashcode/fplan.ser");
         try (ObjectOutputStream out = new ObjectOutputStream(Files.newOutputStream(path))) {
             out.writeObject(flightPlan);
             System.out.println("Serialized data is saved to " + path.toString());
@@ -34,7 +33,7 @@ public class Main {
     }
 
     private static void deserialize() {
-        Path path = Paths.get("misc/p07_serialization/fplan.ser");
+        Path path = Paths.get("misc/p08_hashcode/fplan.ser");
         try (ObjectInputStream inputStream = new ObjectInputStream(Files.newInputStream(path))) {
             FlightPlan flightPlanDeserializedTest = (FlightPlan) inputStream.readObject();
             System.out.println(flightPlanDeserializedTest.toString());
