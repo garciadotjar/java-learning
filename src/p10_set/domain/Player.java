@@ -1,9 +1,9 @@
-package p09_lists.domain;
+package p10_set.domain;
 
 import java.io.Serializable;
 
 public class Player implements Serializable, Comparable<Player> {
-    private static final long serialVersionUID = 3315583594637011628L;
+    private static final long serialVersionUID = 3218181431805906823L;
     private String name;
     private int points;
     private int level;
