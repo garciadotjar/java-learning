@@ -1,5 +1,5 @@
 //09-06-2026
-//hashmap
+//binarySearch
 package p11_binarySearch;
 
 import p11_binarySearch.domain.Player;
