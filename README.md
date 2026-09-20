@@ -1,29 +1,27 @@
 # java-learning
 
-Personal log of my first steps in Java — My study is following [this Java playlist](https://www.youtube.com/watch?v=NxuGmdGBDdk&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW).
+Log pessoal dos meus primeiros estudos em Java - Estudando seguindo [esta playlist](https://www.youtube.com/watch?v=NxuGmdGBDdk&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW).
 
-This isn't a single project — it's a growing collection of tests and mini-programs. New exercises get added as I keep learning, following the same structure below.
+O repositório conta com uma coleção de testes e mini-programas. Novos exercícios serão adicionados conforme estudo o básico da linguagem, seguindo a estrutura abaixo.
 
-## Structure
+## Estrutura
 
 ```
 src/
 ├── p01_oop/
-│   ├── Main.java          # entry point, run this to try the exercise
-│   └── domain/             # supporting classes for this exercise
+│   ├── Main.java          # ponto de entrada, execute para rodar o exercício
+│   └── domain/             # classes adicionais para o exercício
 ├── p02_inheritance/
 │   ├── Main.java
 │   └── domain/
-└── ...                     # pXX_topic, one package per concept studied
-misc/                        # extra files an exercise needs or generate at runtime
+└── ...                     # pXX_topico, um pacote para cada conceito estudado
+misc/                        # pasta para exercícios que precisam gerar ou ler arquivos extras
 └── p07_serialization/       
-    └── fplan.ser             # (e.g. a serialized object written/read by that exercise)
+    └── fplan.ser             # (ex: um objeto serializado usado no exercício 7)
 ```
 
-Every exercise lives in its own `pXX_topic` package under `src/`, numbered in the order I studied it, with a `Main.java` you can run directly. When an exercise needs to read or write a file (like the serialization example), that file goes in `misc/pXX_topic/` instead of mixing runtime output into the source tree.
+Cada exercício está no seu pacote `pXX_topico` dentro de `src/`, numerado na ordem de estudo, onde  `Main.java` pode ser executado diretamente. Quando um exercício precisa ler ou escrever um arquivo (como no exemplo de serialização), esse arquivo vai em `misc/pXX_topic/`.
 
-## Environment
+## Requisitos:
 
-- Language level: **Java 8**
-- JDK installed locally: 16
-- IntelliJ IDEA project
+- **Java 8 ou superior**
