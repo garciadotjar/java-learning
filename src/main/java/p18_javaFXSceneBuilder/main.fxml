@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Sphere?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="p18_javaFXSceneBuilder.Main">
+   <children>
+      <Button layoutX="55.0" layoutY="150.0" mnemonicParsing="false" prefHeight="236.0" prefWidth="491.0" text="Botao qualquer feito no SceneBuilder" />
+      <Text layoutX="167.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Texto inserido no scenebuilder" />
+      <Sphere layoutX="523.0" layoutY="80.0" radius="50" />
+   </children>
+</AnchorPane>

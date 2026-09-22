@@ -12,7 +12,6 @@
     <properties>
         <maven.compiler.release>26</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
         <javafx.version>26.0.1</javafx.version>
     </properties>
 
@@ -33,6 +32,17 @@
     </dependencies>
 
     <build>
+
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.fxml</include>
+                    <include>**/*.png</include>
+                </includes>
+            </resource>
+        </resources>
+
         <plugins>
 
             <plugin>
@@ -41,15 +51,17 @@
                 <version>0.0.8</version>
 
                 <configuration>
-                    <mainClass>p16_javaFXStages.Main</mainClass>
+                    <mainClass>p18_javaFXSceneBuilder.Main</mainClass>
 
                     <options>
                         <option>--enable-native-access=javafx.graphics</option>
                     </options>
                 </configuration>
+
             </plugin>
 
         </plugins>
+
     </build>
 
 </project>
