@@ -25,7 +25,7 @@ public class Main extends Application {
         Scene scene = new Scene(root, 410,720, Color.MEDIUMPURPLE);
 
         Image icon = new Image(
-                new File("misc/p16_javaFXStages/icon.png").toURI().toString()
+                new File("misc/p16_JavaFXLogo/icon.png").toURI().toString()
         );
         stage.setX(50);
         stage.setY(50);

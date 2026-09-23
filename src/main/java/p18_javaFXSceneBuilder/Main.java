@@ -22,7 +22,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
         Parent root = loader.load();
         Image icon = new Image(
-                new File("misc/p18_javaFXSceneBuilder/icon.png").toURI().toString()
+                new File("misc/p16_JavaFXLogo/icon.png").toURI().toString()
         );
 
         stage.getIcons().add(icon);
