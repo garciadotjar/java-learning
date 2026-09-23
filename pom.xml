@@ -51,7 +51,6 @@
                 <version>0.0.8</version>
 
                 <configuration>
-                    <mainClass>p18_javaFXSceneBuilder.Main</mainClass>
 
                     <options>
                         <option>--enable-native-access=javafx.graphics</option>

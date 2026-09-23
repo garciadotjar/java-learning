@@ -1,10 +1,5 @@
-/*
-o certo era deixar o .fxml fora, em uma pasta chamada resources, porem, para facilitar
-os estudos, usei uma gambiarra no maven para conseguir colocá-lo aqui no pacote
-sem problemas
-*/
-
-package p18_javaFXSceneBuilder;
+//09-23-2026
+package p19_javaFXEventHandler;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
