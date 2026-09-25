@@ -1,0 +1,16 @@
+.root{
+    -fx-background-color: #e7b0ff;
+}
+
+#textooi{
+    -fx-font-size: 20;
+    -fx-fill: #000000;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+
+#botaooi{
+    -fx-background-color: #ff79fb;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+}
